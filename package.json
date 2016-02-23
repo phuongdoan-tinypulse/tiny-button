@@ -1,0 +1,25 @@
+{
+  "name": "tiny-button",
+  "version": "1.0.0",
+  "description": "Compare performance of different web component library",
+  "main": "main.js",
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.2.1",
+    "skatejs": "^0.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://phuongdoan-tinypulse@github.com/phuongdoan-tinypulse/tiny-button.git"
+  },
+  "author": "Phuong Doan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/phuongdoan-tinypulse/tiny-button/issues"
+  },
+  "homepage": "https://github.com/phuongdoan-tinypulse/tiny-button#readme"
+}

@@ -1,0 +1,38 @@
+<!-- This is an index template for performace testing -->
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Default dependency scripts -->
+  <link href="../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="../default/tiny-button.css" rel="stylesheet" type="text/css" />
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../default/tiny-button.js"></script>
+
+  <!-- Custom scripts -->
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Demo</title>
+</head>
+<body>
+
+  <script>
+    window.startTime = new Date();
+  </script>
+
+  <!-- 1000 buttons go here -->
+
+  <script>
+    console.log(new Date() - window.startTime);
+  </script>
+
+  <script>
+    $(window).load(function() {
+      var loadTime = window.performance.timing.domContentLoadedEventEnd-window.performance.timing.navigationStart;
+      console.log('Page load time is '+ loadTime);
+    });
+  </script>
+
+</body>
+</html>
