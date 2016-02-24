@@ -8,7 +8,10 @@
     "jquery": "^2.2.1",
     "skatejs": "^0.15.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-serve": "^1.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

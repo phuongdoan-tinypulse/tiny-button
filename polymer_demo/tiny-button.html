@@ -1,0 +1,31 @@
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+
+<dom-module id="tiny-button">
+  <template>
+    <div class="tiny-button">
+      <button>
+        <span class="spinner">
+          <i class="fa fa-spinner"></i>
+        </span>
+        <content></content>
+      </button>
+    </div>
+  </template>
+  <script>
+  (function() {
+    'use strict';
+
+    var count = 0;
+    Polymer({
+      is: 'tiny-button',
+
+      attached: function () {
+        if (this.textContent.trim() === 'Last Feedback') {
+          console.log('Render time:', (new Date()) - window.startTime);
+        }
+      },
+    });
+  })();
+  </script>
+</dom-module>

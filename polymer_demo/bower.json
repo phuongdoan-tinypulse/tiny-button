@@ -1,0 +1,21 @@
+{
+  "name": "polymer_demo",
+  "homepage": "https://github.com/phuongdoan-tinypulse/tiny-button",
+  "authors": [
+    "thuanbuitinypulse <thuan@tinypulse.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  }
+}
