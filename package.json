@@ -6,7 +6,11 @@
   "dependencies": {
     "font-awesome": "^4.5.0",
     "jquery": "^2.2.1",
-    "skatejs": "^0.15.2"
+    "skatejs": "skatejs/skatejs#840a19f9f58977dc739105441d725ad70fcc7fd0",
+    "skatejs-dom-diff": "skatejs/dom-diff#a8bdc415e1f9ca657bea15eed88aca6293b1d175",
+    "skatejs-named-slots": "0.0.3",
+    "skatejs-template-html": "0.0.0",
+    "skatejs-types": "skatejs/types#1e9725b4ab1f2504afd683623dbdaccb5ac3bde9"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
